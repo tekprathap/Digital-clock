@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslateblue;
+}
+.header{
+    text-align: center;
+    margin: 70px;
+    font-size: 100px;
+    text-shadow: 2px 2px 3px  black;
+    color: white;
+   
+    animation: neon 3s infinite;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box{
+    background-color: skyblue;
+    border: 2px solid red;
+    width: 900px;
+    border-radius: 20px ;
+    height: 300px;
+    
+
+}
+span{
+    font-size: px;
+}
+.days{
+    /* display: flex;
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+ 
+}
+ h1{
+    text-align: center;
+    margin: 50px;
+    
+
+}
+.time{
+    font-size: 50px;
+   
+}
+#ampm{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+
+
+@media (max-width:800px) {
+    .header{
+        text-align: center;
+        margin: 30px;
+        font-size: 60px;
+        color: white;
+    }
+    .box{
+        background-color: skyblue;
+        width: 500px;
+        border-radius: 20px ;
+        height: 200px;
+        
+    
+    }
+    h1{
+        text-align: center;
+        margin: 20px;
+        
+    
+    }
+    .time{
+        font-size: 20px;
+    }
+}
+@media (max-width:500px) {
+    .header{
+        font-size: 50px;
+        margin: 10px;
+        margin: 20PX;
+        text-align: center;
+    }
+    .box{
+        width: 400px;
+        margin: 50PX;
+    }
+    .time{
+        font-size: 30px;
+    }
+    h1{
+        text-align: center;
+        margin: 10px;
+        
+    
+    }
+    
+}
+@media (max-width:390px) {
+    .header{
+        text-align: center;
+        font-size: 40px;
+       
+    }
+    .box{
+        width: 313px;
+        padding: 10px;
+    }
+    .days{
+        font-size: 14px;
+       
+        margin: 2px;
+    }
+    h1{
+        margin: 10px;
+    
+    }
+    
+}
+@media (max-width:330px) {
+    .box{
+        width: 300px;
+    }
+}
